@@ -12,8 +12,8 @@ function registration(event) {
         result.email = email
         result.password = password
         ref.reset()
+        return console.log(result)
     } else {
         alert("Усі поля повинні бути заповненні")
     }
-    return console.log(result)
 }
